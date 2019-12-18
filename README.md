@@ -12,7 +12,7 @@
 
 
 # Install dependences
-in ```spa-angularjs/```
+in ```pipes-angularjs/```
 
 ```bash
 npm install
@@ -67,7 +67,7 @@ ng serve -o
 <!-- # Server local
 install global ```sudo npm i -g http-server```
 
-deploy in ```/spa-angularjs/dist/spa-angularjs/```
+deploy in ```/pipes-angularjs/dist/pipes-angularjs/```
 
 ```javascript
 http-server
