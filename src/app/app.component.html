@@ -127,6 +127,17 @@
                 <td> capitalizado:false </td>
                 <td> {{ nombreCompleto | capitalizado:false }}</td>
             </tr>
+            <tr>
+                <td> {{ nombre }} </td>
+                <td>
+                    contrasena:{{ activar }}
+                    <br>
+                    <button type="button" class="btn btn-primary" (click)="activar = !activar">
+                    Activar / Desactivar
+                  </button>
+                </td>
+                <td> {{ nombre | contrasena:activar }}</td>
+            </tr>
         </tbody>
     </table>
 
