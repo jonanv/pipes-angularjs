@@ -30,4 +30,5 @@ export class AppComponent {
   });
 
   fecha: Date = new Date();
+  video: string = "mOeSfOJrUIk";
 }
