@@ -27,4 +27,6 @@ export class AppComponent {
       'Llego la data'), 3500
     );
   });
+
+  fecha = new Date();
 }
