@@ -64,6 +64,15 @@ ng new NameProject
 ng serve -o
 ```
 
+# Create pipe without file spec.ts
+```javascript
+ng generate pipe pipes/domseguro --spec=false
+```
+or
+```javascript
+ng g p pipes/domseguro --spec=false
+```
+
 <!-- # Server local
 install global ```sudo npm i -g http-server```
 
