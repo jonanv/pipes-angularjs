@@ -8,7 +8,7 @@
 [![License][license-badge]][license-url]
 
 # Site
-<!-- TODO: Agregar imagen del proyecto y opcional agregar proyecto a docs -->
+https://jonanv.github.io/pipes-angularjs/
 
 ![Imgur](https://i.imgur.com/8C3tgn6.png)
 
