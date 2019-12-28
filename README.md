@@ -75,7 +75,12 @@ or
 ng g p pipes/domseguro --spec=false
 ```
 
-<!-- # Server local
+# Create project build to production
+```javascript
+ng build --prod
+```
+
+# Server local
 install global ```sudo npm i -g http-server```
 
 deploy in ```/pipes-angularjs/dist/pipes-angularjs/```
@@ -86,7 +91,7 @@ http-server
 or
 ```javascript
 http-server -o
-``` -->
+```
 
 [npm-badge]: https://img.shields.io/badge/npm-v6.9.0-brightgreen.svg
 [npm-url]: https://www.npmjs.com
