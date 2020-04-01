@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   nombre: string = "Giovanni";
   nombreCompleto: string = "gioVANni vaRGAS GONzález";
   arreglo = [1,2,3,4,5,6,7,8,9,10];
@@ -30,6 +31,7 @@ export class AppComponent {
   });
 
   fecha: Date = new Date();
+  idioma: string = 'fr';
   video: string = "mOeSfOJrUIk";
   activar: boolean = true;
 

@@ -118,6 +118,17 @@
                 <td> {{ fecha | date:'MMMM - dd' }}</td>
             </tr>
             <tr>
+                <td> {{ fecha }} </td>
+                <td>
+                    date:'MMMM - dd':'':'{{ idioma }}'
+                    <br>
+                    <button class="btn btn-primary m-1" (click)="idioma = 'es'">Español</button>
+                    <button class="btn btn-secondary m-1" (click)="idioma = 'en'">Inglés</button>
+                    <button class="btn btn-success m-1" (click)="idioma = 'fr'">Francés</button>
+                </td>
+                <td> {{ fecha | date:'MMMM - dd':'':idioma }}</td>
+            </tr>
+            <tr>
                 <td> {{ nombreCompleto }} </td>
                 <td> capitalizado </td>
                 <td> {{ nombreCompleto | capitalizado }}</td>
@@ -133,8 +144,8 @@
                     contrasena:{{ activar }}
                     <br>
                     <button type="button" class="btn btn-primary" (click)="activar = !activar">
-                    Activar / Desactivar
-                  </button>
+                        Activar / Desactivar
+                    </button>
                 </td>
                 <td> {{ nombre | contrasena:activar }}</td>
             </tr>

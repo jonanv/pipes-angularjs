@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 
 import { LOCALE_ID } from '@angular/core';
 import localeEs from '@angular/common/locales/es';
+import localeFr from '@angular/common/locales/fr';
 import { registerLocaleData } from '@angular/common';
 registerLocaleData(localeEs);
+registerLocaleData(localeFr);
 
 import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
