@@ -5,9 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 import localeFr from '@angular/common/locales/fr';
-import { registerLocaleData } from '@angular/common';
 registerLocaleData(localeEs);
 registerLocaleData(localeFr);
 
@@ -28,7 +28,7 @@ import { ContrasenaPipe } from './pipes/contrasena.pipe';
     AppRoutingModule
   ],
   providers: [
-    { provide: LOCALE_ID, useValue: "es" }
+    { provide: LOCALE_ID, useValue: 'es' }
   ],
   bootstrap: [AppComponent]
 })
